@@ -1,0 +1,39 @@
+/*selektor znacznika*/
+p {
+    color: blue;
+    font-size: 18px;
+    background: yellow;
+    
+}
+
+/* selector id*/
+#identifikator{
+    background: grey;
+    color: green;
+    font-size: 21px;
+}
+
+.przyklad{
+    background: blue;
+    color: black;
+    font-size: 16px;
+}
+a, span {
+    color: red;
+    text-decoration:  underline;
+    
+}
+
+/*selektor bezposredniego potomka*/
+li>a{
+    font-size: 20px;
+    color: aqua;
+}
+
+/*Selektor elenentow potomnych*/
+div p{
+    background: pink;
+    color: blue;
+    font-size: 30px;
+    
+}
