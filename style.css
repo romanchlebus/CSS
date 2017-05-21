@@ -37,3 +37,22 @@ div p{
     font-size: 30px;
     
 }
+
+/*selektor bezposredniego rodzenstwa*/
+div p + a{
+    background: grey;
+    color: bisque;
+    text-transform: uppercase;
+}
+
+/*selektor rodzenstwa*/
+
+
+
+
+
+
+
+
+
+
