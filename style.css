@@ -46,13 +46,28 @@ div p + a{
 }
 
 /*selektor rodzenstwa*/
+header h2 ~ h3{
+    color: blueviolet;
+    background: yellow;
+    
+    
+}
 
+/*selektor wykluczajacy*/
 
+#wykluczajacy >li:not(.last){
+    color: coral;
+    
+}
 
+#wykluczajacy {
+    list-style-type: none;
+}
 
-
-
-
-
+/*selektor kolejnego elementu potomnego (w nawiasie even parzyste, odd nieparzyste zamiast np 2 jak w przykladzie)*/
+#nth > li:nth-child(2){
+    background: red;
+    font-size: 28px;
+}
 
 
